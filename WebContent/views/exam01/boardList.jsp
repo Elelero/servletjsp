@@ -5,7 +5,7 @@
 <%@ page import="java.util.*, dto.*" %>
 
 <div class="card">
-	<div class="card-header">exam01.jsp</div>
+	<div class="card-header">boardList.jsp</div>
 	<div class="card-body">
 		<%List<Board> boards = new ArrayList<>(); %>
 		<%for(int i=1; i<=10; i++){

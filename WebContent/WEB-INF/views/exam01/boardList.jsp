@@ -5,7 +5,7 @@
 <%@ include file="/WEB-INF/views/common/header.jsp" %>
 
 <div class="card">
-	<div class="card-header">exam01_view.jsp</div>
+	<div class="card-header">boardList.jsp</div>
 	<div class="card-body">
 		<table class="table table-bordered">
 			<!-- 테이블 헤드 -->

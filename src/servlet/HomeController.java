@@ -4,10 +4,13 @@ import java.io.IOException;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//@WebServlet(name="HomeController", urlPatterns="/HomeController")
+//web.xml에 매핑되어 있어서 현재는 주석처리..!
 public class HomeController extends HttpServlet {
 	
 	@Override
