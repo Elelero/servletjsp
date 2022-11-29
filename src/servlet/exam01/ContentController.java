@@ -17,22 +17,11 @@ import dto.Board;
 @WebServlet(name="exam01.ContentController", urlPatterns="/exam01/ContentController")
 public class ContentController extends HttpServlet {
 	
+	//클라이언트가 요청할 때 마다 콜백 (요청방식과는 상관없음)
+	//역할: 요청처리
 	@Override
-	public void init(ServletConfig config) throws ServletException {
-		System.out.println("ContentController.init() 실행");
-	}
-	
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("service() 실행");
-		
-		//JSP로 이동
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.getRequestDispatcher("/WEB-INF/views/exam01/content.jsp").forward(request, response);
-	}
-	
-	@Override
-	public void destroy() {
-		System.out.println("ContentController.destroy() 실행");
 	}
 
 }
