@@ -21,7 +21,8 @@ public class ContentController extends HttpServlet {
 	//클라이언트가 요청할때 마다 실행
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/exam04/content.jsp").forward(request, response);
+		//redirect
+		response.sendRedirect("/servletjsp/HomeController");
 	}
 	
 }
