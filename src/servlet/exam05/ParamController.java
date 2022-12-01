@@ -31,7 +31,7 @@ public class ParamController extends HttpServlet {
 	//클라이언트가 요청할때 마다 실행
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
+		//request.setCharacterEncoding("UTF-8");
 		
 		String email = request.getParameter("email");
 		String pwd = request.getParameter("pwd");
