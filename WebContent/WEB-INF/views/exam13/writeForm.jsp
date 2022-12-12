@@ -26,6 +26,14 @@
 				<label for="battach">Attach</label> 
 				<input type="file" class="form-control" id="battach" name="battach"> 
 			</div>
+			<div class="form-group">
+				<label for="battach">Attach</label> 
+				<input type="file" class="form-control" id="battach" name="battach"> 
+			</div>
+			<div class="form-group">
+				<label for="battach">Attach</label> 
+				<input type="file" class="form-control" id="battach" name="battach"> 
+			</div>
 			<button type="submit" class="btn btn-warning">게시물쓰기</button>
 		</form>
 	</div>
